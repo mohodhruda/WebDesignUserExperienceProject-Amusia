@@ -1,0 +1,257 @@
+@media (min-width: 700px) {
+body {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+    color: black;
+    background: black;
+}
+
+h1 {
+	
+	font-weight:normal;
+	font-size: 55px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 70px;
+}
+
+.h1 {
+	
+	font-weight:normal;
+	font-size: 55px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0px;
+}
+
+h2 {
+	
+	font-weight: normal;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+ h5 {
+	
+	font-weight: normal;
+	font-size: 20px;
+	text-align: center;
+	/* margin: 5px 0; */
+	padding: 0;
+	z-index: 1;
+	position: relative;
+} 
+
+.center { 
+	margin: 0 auto; 
+}
+
+.content { 
+	margin: 0 auto; 
+	width: 960px; 
+}
+
+.clear{ 
+	clear: both; 
+}
+
+#header {
+	width: 100%;
+	background: url('../../images/Contact-us-2.jpg');
+	height: 80px;
+	position: fixed;
+	margin-top: 30px;
+	color: black;
+}
+#nav { 
+	width: 410px; 
+	float: right; 
+	margin-top: 20px; 
+}
+
+#logo a { 
+	color: #fff; 
+	text-decoration: none; 
+	float: left; font-size: 30px;
+	margin-top: 20px; 
+	color: #fff; 
+	 
+	font-weight: bold; 
+}
+
+#nav ul {
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	list-style: none;
+}
+
+#nav li {
+	margin-top: 9px;
+	float: left;
+	padding-left: 21px;
+}
+
+#nav li a { 
+	color: #fff; 
+	opacity:0.6; 
+	font-size: 16px; 
+	text-decoration: none; 
+	 
+}
+
+#nav li a.active { 
+	color: #fff; 
+	opacity:1; 
+	border-bottom: 
+	2px solid #fff; 
+}
+
+#nav li a:hover { 
+	color: #fff; 
+	opacity:1; 
+}
+
+.quotes {
+	
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-align: left;
+	margin: 1rem auto;
+	color: #e0fffc;
+	text-shadow: 1px 1px #000;
+
+}
+
+.author_name_white { 
+	
+	margin: 70px 0 0 75px; 
+	color: #fff; 
+	font-size: 20px; 
+} 
+
+.author_name_gray { 
+	
+	margin: 70px 0 0 75px; 
+	color: #94a4a4; 
+	font-size: 20px; 
+} 
+.quotes h3{
+	font-size: 5rem;
+	text-align: justify;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.quotes_container { 
+	width: 800px; 
+	margin: 0 auto; 
+}
+#divider { 
+	background: url('../../images/Contact-us-2.jpg')no-repeat; 
+	width: 300px; 
+	height: 35px; 
+	margin: 0px auto 27px auto; 
+}
+
+
+#slide1, #slide2{ 
+	width: 100%; 
+	
+}
+
+#slide1{
+	background:url('../../images/pexels-photo-5.jpeg') 50% 0 no-repeat fixed;
+	color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+	min-height: 450px;
+	height: 100vh;
+	margin: 0;
+	padding: 200px 0 260px 0;
+	background-size: cover;
+}
+
+#slide2{
+	background-image: linear-gradient(rgb(208, 80, 247), rgb(42, 171, 245));
+	color: #333333;
+	height: 200px;
+	margin: 0 auto;
+	overflow: hidden;
+     padding-bottom: 10px; 
+     align-content: center;
+}
+
+#slide3{
+	background: url(../../images/pexels-photo-6.jpeg) 50% 0 no-repeat fixed;
+	color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+	min-height: 450px;
+	height: 100vh;
+	padding: 170px 0 0 0;
+	background-size: cover;
+}
+
+#slide4{
+	background-image: linear-gradient(#2A68F5, rgb(253, 155, 232));body9
+	color: #333333;
+	height: 200px;
+	margin: 0 auto;
+	overflow: hidden;
+     padding-bottom: 10px; 
+     align-content: center;
+}
+
+#slide5{
+	background: url(../../images/pexels-photo-4.jpeg) 50% 0 no-repeat fixed;
+	min-height: 200px;
+	height: 100vh;
+	margin: 0 auto;
+	padding: 250px 0;
+	color: #fff;
+	background-size: cover;
+}
+
+#copyright { 
+	color: #fff; 
+	
+	font-size: 14px; 
+	margin-top: 100px; 
+	text-align: center; 
+}
+
+#copyright a { 
+	text-decoration: none; 
+	color: #fff; 
+
+}
+}
+@media (max-width: 700px) {
+.body9{
+	background-color: aqua;
+	background: url(../../images/pexels-photo2.jpeg) 50% 0 no-repeat fixed;
+	color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	height:580px;
+}
+h5{
+	visibility: hidden;
+}
+h1{
+	text-align: center;
+}
+
+
+}

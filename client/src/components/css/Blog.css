@@ -1,0 +1,130 @@
+.Applogo {
+  text-align: center;
+}
+.box11 { 
+  grid-column-start: 1; 
+  grid-column-end: 4; 
+  grid-row-start: 1; 
+  grid-row-end: 3; 
+  font-size: calc(20px + 2vmin);
+}
+
+.wrappper > div {
+  border: 2px solid #f7f6f6;
+  border-radius: 5px;
+  background-color: #050505;
+  /* background: #333
+  url("music.jpg") ; */
+  padding: 1em;
+  color: #fdfafa;
+  
+}
+
+#abouttus {
+  background: #333
+  url("../../images/pexels-photo5.jpeg") ;
+  height:420px;           
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#abouttus p{
+  color:white;
+}
+
+.wrapperr > p {
+  border: 2px solid #fafaf9;
+  border-radius: 10px;
+  background-color: #0e0af5;
+  padding: 2em;
+  margin: 2em;
+  color: #d9480f;
+  max-width: 600px;
+  opacity: 0.8;
+  
+}
+
+.wrapperrr > p {
+  border: 2px solid #fafaf9;
+  border-radius: 10px;
+  background-color: #0e0af5;
+  padding: 2em;
+  margin: 2em;
+  color: #d9480f;
+  max-width: 600px;
+  opacity: 0.8;
+}
+
+#aboutuss {
+  background: #333
+  url("../../images/conc.jpg") ;
+  height:420px;           
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#aboutuss p{
+  color:white;
+}
+
+.wrapperrrr > p {
+  border: 2px solid #fafaf9;
+  border-radius: 10px;
+  background-color: #0e0af5;
+  padding: 2em;
+  margin: 2em;
+  color: #d9480f;
+  max-width: 600px;
+  opacity: 0.8;
+}
+
+
+
+#aboutusss {
+  background: #333
+  url("../../images/hands.jpg") ;
+  height:420px;           
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#aboutusss p{
+  color:white;
+}
+
+.wrapperrrrr > p {
+  border: 2px solid #fafaf9;
+  border-radius: 10px;
+  background-color: #0e0af5d7;
+  padding: 2em;
+  margin: 2em;
+  color: #d9480f;
+  max-width: 600px;
+  opacity: 0.8;
+}
+
+#aboutussss {
+  background: #333
+  url("../../images/rise.jpg") ;
+  height:420px;           
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#aboutussss p{
+  color:white;
+}
+@media (min-width: 1000px) {
+   .grid1 {
+    display: grid;
+    /* grid-template-columns: 1fr repeat(5, minmax(auto, 300em)) 1fr; */
+  } 
+}

@@ -1,0 +1,215 @@
+#mainpageshow {
+    text-align: center;
+    color: #fff;
+     /* background: #000;  */
+}
+.bg1 {
+    -webkit-animation: rotation 2s infinite linear;
+}
+@media (max-width: 600px) {
+    #loading {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+
+
+  
+
+#mainpageshow .bg1 {
+
+    background: #333;
+  }
+ 
+  #mainpageshow .bg1 {
+
+    background: #333;
+  }
+ 
+.bg-image h1{
+    padding: 100px;
+    margin: 600px;
+}
+
+  #top {
+    top: 25%;
+    left: 25%;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+  }
+
+#showcase label{
+    padding-top: 100px;
+    padding-bottom: 0;
+    color:blue;
+  }
+  
+  .Searchbar{
+    position: absolute;
+    top: 13px;
+    right: 16px;
+    font-size: 18px;
+  }
+
+  .searchinput{
+    font-size: 17px;
+    border: 1px solid white;
+    float: left;
+    width:70%;
+    background:white;
+}
+
+.searchbtn {
+    width: 25%;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #2196F3;
+    border-left: none;
+    cursor: pointer;
+}
+
+#mainpageshow input{
+    text-align: center;
+}
+
+#mainpageshow{
+    height:580px;
+}
+
+
+#mainpageshow input{
+    text-align: center;
+}
+
+#mainpageshow{
+    height:100%;
+}
+
+.input2{
+    padding-top:50px;
+    padding-left: 500px;
+}
+
+#mainpageshow .form-group1{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    color:white;
+    background:rgb(144, 212, 233);
+    opacity: 0.7;
+    width: 40%;
+    border: 0;
+    border-radius:8px;
+    margin-top:190px;
+    margin: 0 0 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.mainpagebutton {
+        font-family: "Roboto", sans-serif;
+        padding-left:15px;
+        border-radius:8px;
+        text-transform: uppercase;
+        outline: 0;
+        background:#0467E5;
+        width: 10%;
+        border: 0;
+        padding: 10px;
+        color: #FFFFFF;
+        font-size: 14px;
+      }
+
+      
+@media (min-width: 700px) {
+    #mainpageshow .bg1 {
+        position: absolute;
+        background: #333
+           url("../../images/pexels-photo4.jpeg"); 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        z-index: -999;
+        opacity: 0.7;
+    }
+    #mainpageshow  {
+        position: absolute;
+        background: black;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        z-index: -999;
+        height:780px;
+    }
+}
+      
+@media (max-width: 700px) {
+    .bg1{
+        display:none;
+    }
+    .body5 {
+        background-image: linear-gradient(rgb(52, 33, 223), rgb(4, 2, 10));
+        
+         /* height:100%;   */
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         text-align: center;
+    }
+
+    #mainpageshow .form-group1{
+        font-family: "Roboto", sans-serif;
+        outline: 0;
+        background:#fff;
+        opacity: 0.7;
+        width: 50%;
+        border: 0;
+        border-radius:8px;
+        margin-top:190px;
+        margin: 0 0 15px;
+        padding: 10px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    .mainpagebutton {
+            font-family: "Roboto", sans-serif;
+            border-radius:8px;
+            text-transform: uppercase;
+            outline: 0;
+            background:#0467E5;
+            width: 10%;
+            border: 0;
+            padding: 10px;
+            color: #FFFFFF;
+            font-size: 14px;
+          }
+
+          .input2{
+            padding-top:50px;
+            padding:0;
+        }
+        .mainpagebutton {
+            font-family: "Roboto", sans-serif;
+            padding-left:15px;
+            border-radius:8px;
+            text-transform: uppercase;
+            outline: 0;
+            background:#0467E5;
+            width: 30%;
+            border: 0;
+            padding: 10px;
+            color: #FFFFFF;
+            font-size: 14px;
+          }
+}

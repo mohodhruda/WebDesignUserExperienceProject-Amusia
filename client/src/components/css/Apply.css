@@ -1,0 +1,28 @@
+.wrappper > div {
+  border: 10px solid #f7f6f6;
+  border-radius: 1px;
+  background-color: #050505;
+  /* background: #333
+  url("music.jpg") ; */
+  padding: 1em;
+  color: #fdfafa;
+  
+}
+
+#abouttus {
+  background: #333
+  url("../../images/pexels-photo3.jpeg") ;
+  height:600px;           
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#abouttus p{
+  color:rgb(253, 252, 252);
+  /* font-size: calc(10px + 2vmin); */
+}
+
+
+
